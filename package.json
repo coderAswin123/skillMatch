@@ -1,0 +1,27 @@
+{
+  "name": "skillmatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderAswin123/skillMatch.git"
+  },
+  "author": "Aswin V R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderAswin123/skillMatch/issues"
+  },
+  "homepage": "https://github.com/coderAswin123/skillMatch#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1",
+    "moongoose": "^0.0.1",
+    "nodemon": "^3.1.10"
+  }
+}
