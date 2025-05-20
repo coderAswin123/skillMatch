@@ -18,7 +18,3 @@ app.listen(port,()=> {
     console.log(`Server is listening on port ${port}`);
 }); 
 
-/*
-MONGO_URI = "mongodb+srv://iitaspirant123:2BX3L4PvooiXsVoB@skillmatch.89haqxr.mongodb.net/?retryWrites=true&w=majority&appName=skillMatch"
-JWT_SECRET = "15a6884a286297e3347ad3dd05a568393a841f8713cf3b51b48fabfafb4e0292f48459fd6ba844db99909a05d13c134dc04c2a4d3f3c110d7b1fa56de68ff5ca2c406a2a7ba1d75f54a5177be28ea7fbfc21ccd3d6c1a57a4178d0aaaa61086a47f485b529c62f0f4800c1f4129965369a3c4ad0014fb8059e3ba51ef2336fc6"
-*/
