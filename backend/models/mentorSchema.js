@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const userSchema = mongoose.Schema(
+const mentorSchema = mongoose.Schema(
 {
     name: {
         type: String,
@@ -30,10 +30,14 @@ const userSchema = mongoose.Schema(
 
     availability: {
         type: String,
+        required: [true, 'Please add your availabilty'],
+
     },
 
     experienceLevel:{
         type: Number,
+        required: [true, 'please add your experience'],
+
     }
        
 },  
@@ -42,5 +46,5 @@ const userSchema = mongoose.Schema(
 });
 
 
-module.exports = mongoose.model('User',userSchema);
+module.exports = mongoose.model('Mentor',mentorSchema);
 
